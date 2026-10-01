@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="A birthday wish sent across the miles to Nourin." />
+  <title>For Nourin, across every mile</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="sky" aria-hidden="true">
+    <span class="star star-a"></span><span class="star star-b"></span><span class="star star-c"></span>
+    <span class="star star-d"></span><span class="star star-e"></span><span class="star star-f"></span>
+    <span class="star star-g"></span><span class="star star-h"></span><span class="star star-i"></span>
+    <span class="shooting-star"></span>
+  </div>
+
+  <main class="page-shell">
+    <nav class="topbar" aria-label="Page navigation">
+      <a class="wordmark" href="#top" aria-label="Nourin's birthday page">
+        <span class="wordmark-dot"></span>
+        <span>the miles between us</span>
+      </a>
+      <span class="date-stamp">a birthday edition <strong>for you</strong></span>
+    </nav>
+
+    <section class="hero" id="top">
+      <div class="hero-copy">
+        <div class="keepsake-badge"><span class="badge-star">&#10022;</span><span>digital keepsake / made for Nourin</span></div>
+        <p class="eyebrow"><span class="eyebrow-line"></span> A birthday note, sent with the moon</p>
+        <h1>Happy birthday,<br /><em>Nourin.</em></h1>
+        <p class="hero-subtitle">Some people are home, even from far away.</p>
+        <p class="pharmd-note"><span>Rx</span> for the future PharmD who makes every mile feel like home</p>
+        <button class="reveal-button" id="revealButton" type="button">
+          <span>Open your little surprise</span>
+          <span class="button-arrow" aria-hidden="true">&#8594;</span>
+        </button>
+        <p class="button-hint">made with all the love that distance cannot measure</p>
+      </div>
+
+      <div class="moon-stage" aria-label="A moonlit sky with a message for Nourin">
+        <div class="orbit orbit-one"></div>
+        <div class="orbit orbit-two"></div>
+        <div class="moon-glow"></div>
+        <div class="moon">
+          <div class="moon-crater crater-one"></div>
+          <div class="moon-crater crater-two"></div>
+          <div class="moon-crater crater-three"></div>
+        </div>
+        <div class="moon-label"><span>same moon</span><span>different windows</span></div>
+      </div>
+    </section>
+
+    <section class="distance-strip" aria-label="Distance message">
+      <div class="distance-item">
+        <span class="distance-number">01</span>
+        <span class="distance-text"><strong>one heart</strong><small>in two places</small></span>
+      </div>
+      <div class="distance-rule"></div>
+      <div class="distance-item">
+        <span class="distance-number">∞</span>
+        <span class="distance-text"><strong>zero distance</strong><small>where it matters</small></span>
+      </div>
+      <div class="distance-rule"></div>
+      <div class="distance-item">
+        <span class="distance-number">24/7</span>
+        <span class="distance-text"><strong>thinking of you</strong><small>even from here</small></span>
+      </div>
+    </section>
+
+    <section class="wish-card" aria-label="Send a birthday wish">
+      <div class="wish-copy">
+        <p class="wish-kicker">A tiny birthday ritual</p>
+        <h2>Make a wish<br /><em>for Nourin.</em></h2>
+        <p class="wish-description">Send a little light across the miles to the future doctor who makes every day brighter.</p>
+      </div>
+      <div class="wish-action">
+        <div class="wish-orbit" aria-hidden="true"><span></span><span></span><span></span></div>
+        <button class="wish-button" id="wishButton" type="button"><span class="wish-button-icon" aria-hidden="true">&#10022;</span><span>Send a wish</span></button>
+        <p class="wish-status" id="wishStatus" role="status">the sky is listening</p>
+      </div>
+    </section>
+
+    <section class="pharmacy-note" aria-label="A prescription for Nourin's next chapter">
+      <div class="pharmacy-note-topline"><span>PHARMD FIELD NOTE / 002</span><span>ISSUED WITH LOVE</span></div>
+      <div class="pharmacy-note-body">
+        <div class="rx-mark" aria-hidden="true">Rx</div>
+        <div>
+          <p class="pharmacy-kicker">A prescription for your next chapter</p>
+          <h2>Keep becoming<br /><em>the wonderful doctor you are.</em></h2>
+        </div>
+      </div>
+      <div class="dose-list">
+        <div class="dose-row"><span>01</span><strong>courage</strong><small>take whenever the days feel heavy</small></div>
+        <div class="dose-row"><span>02</span><strong>kindness</strong><small>share generously, as always</small></div>
+        <div class="dose-row"><span>&#8734;</span><strong>dreams</strong><small>refills: unlimited</small></div>
+      </div>
+      <p class="pharmacy-note-footer">No side effects except making the world better.</p>
+    </section>
+
+    <section class="love-notes" aria-label="Three things to remember">
+      <div class="love-notes-heading">
+        <p class="wish-kicker">Keep these close</p>
+        <h2>Three little truths<br /><em>about you.</em></h2>
+      </div>
+      <div class="note-selector" role="tablist" aria-label="Things Najla loves about Nourin">
+        <button class="note-tab is-active" type="button" role="tab" aria-selected="true" data-note="kindness"><span>01</span> Your kindness</button>
+        <button class="note-tab" type="button" role="tab" aria-selected="false" data-note="magic"><span>02</span> Your magic</button>
+        <button class="note-tab" type="button" role="tab" aria-selected="false" data-note="heart"><span>03</span> Your heart</button>
+      </div>
+      <p class="note-message" id="noteMessage" role="status">You make people feel seen, safe, and a little more hopeful just by being yourself.</p>
+    </section>
+
+    <section class="letter-wrap" id="letter" aria-live="polite">
+      <div class="letter-card">
+        <div class="letter-topline"><span>PRIVATE TRANSMISSION / 001</span><span>FOR NOURIN ONLY</span></div>
+        <div class="letter-content">
+          <p class="letter-kicker">Dear best friend,</p>
+          <p class="letter-lead">If I could fold the distance into a paper airplane, I would send it straight to you tonight.</p>
+          <p>Until then, I hope this little corner of the internet reaches you with the same warmth you bring into every room, every conversation, and every ordinary day. You make the world feel softer just by being in it.</p>
+          <p>May this new year bring you the kind of joy you do not have to chase. And whenever the miles feel loud, look up: we are still under the same sky.</p>
+          <p class="letter-signoff">Always in your corner,<br /><em>Najla, from afar</em></p>
+        </div>
+        <div class="letter-footer"><span>distance: temporary</span><span>love: permanent</span></div>
+      </div>
+      <div class="letter-actions" aria-label="Birthday message actions">
+        <button class="letter-action" id="copyButton" type="button"><span aria-hidden="true">&#9633;</span> Copy message</button>
+        <button class="letter-action" id="shareButton" type="button"><span aria-hidden="true">&#8599;</span> Share page</button>
+        <p class="action-status" id="actionStatus" role="status"></p>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <span>For AYSHA NOURIN, with love from Najla.</span>
+      <button class="footer-spark" id="secretStar" type="button" aria-label="Open one last secret message">&#10022;</button>
+    </footer>
+    <p class="secret-note" id="secretNote" role="status">Psst... no matter how far away you are, you are always one of Najla's favorite places to be.</p>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
